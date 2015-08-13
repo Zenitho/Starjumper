@@ -1,0 +1,393 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #66cc00;
+  background-image:url(../images/sjbg.gif);
+  background-repeat:no-repeat;
+  background-position:top center;
+  width: 100%;
+  display: table;
+  position:relative;
+  
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+}
+a {
+	color: #09f;
+}
+a:hover {
+	text-decoration: none;
+}
+.base{
+	width:920px; 
+	position:relative;
+	text-align:center;
+	/*top:170px;*/
+}
+/*.tbase{
+	height:13px;
+	background-image:url(../images/baseT.png);
+	background-repeat:no-repeat;
+}*/
+.mbase{
+	background-color:#FFF;
+	/*margin:0px;*/
+	padding:13px; 
+	/*padding-top:0px; 
+	padding-bottom:0px;*/
+	/*display:block;*/
+	-webkit-border-radius: 13px; 
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+}
+/*.bbase{
+	height:13px;
+	background-image:url(../images/baseB.png);
+	background-repeat:no-repeat;
+	vertical-align:top;
+	display:block;
+}*/
+.bot{
+	width:920px; 
+	background-color:#fff; 
+	position:relative; 
+	top:25px; 
+	left:0px; 
+	padding-top:13px; 
+	padding-bottom:13px;
+	font-size:10px;
+}
+p, ul, .songs tr td { 
+	text-align:left;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.songs tr td {
+	font-size:11px;
+}
+.songs tr th {
+	font-size:13px;
+}
+table.songs tr:nth-child(even) {
+	background:#dce5b5;
+}
+ul{
+	position:relative;
+	left:-15px;
+	
+}
+.starList{
+	list-style-image:url(../images/starList.png);
+}
+li {
+	/*padding-bottom:13px;*/
+}
+.navList ul{
+	text-align:center;
+	list-style-position:inside;
+	vertical-align:inherit;
+	/*text-align:center;
+	vertical-align:middle;
+	position:relative;*/
+}
+
+.navList ul li{
+	/*padding:30px;
+	padding-bottom:10px;*/
+	/*padding-top:10px;*/
+	display:inline-block;
+	/*background-color:#F0F;*/
+	/*border-radius:14px;	*/
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#ccc;
+	text-align: center;
+	padding: 5px 10px 5px;
+	/*text-shadow: 0 1px 1px rgba(0,0,0,.3);*/
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	margin:0px;
+	margin-left:7px;
+	margin-right:7px;
+	position:relative;
+	/*bottom:20px;*/
+}
+.mnav a{
+	/*overflow:hidden;*/
+	background-repeat: no-repeat;
+	color:#000000;
+	/*height: 33px;*/
+	z-index:20;
+	/*position: absolute;
+	top: 40px;*/
+	text-decoration: none;
+	text-align: center;
+	/*text-indent: -999em;*/
+	cursor: pointer;
+	display:inline-block;
+}
+.logo{
+	background-image:url(../images/dotCircle70.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	/*padding-top:10px;*/
+	/*display:none;*/
+	/*font: 14px/100% Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#ccc;
+	text-align: center;*/
+	
+	overflow:hidden;
+	text-indent: -999em;
+	/*padding: 5px 20px 5px;*/
+	/*-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px;
+	border-radius: 0px;*/
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+	box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+
+}
+.starjumper{
+	background-image:url(../images/logo70.png); 
+	background-repeat:no-repeat; 
+	background-position:center; 
+	width:92px; 
+	height:113px;
+	vertical-align:bottom;
+	/*background-image:url(../images/logo70.png);
+	background-repeat:no-repeat; 
+	background-position:center; 
+	width:92px; 
+	height:113px;*/
+}
+/*.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}*/
+h1{
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#c6e26f;/*#c4d384;*/
+	padding:0px;
+	margin:0px;
+	padding:2px;
+	text-align:center;
+	/* CSS3 declaration */
+	border-top-left-radius: 10px;
+	/* Declaration for WebKit browsers like: Safari, Chrome */
+	-webkit-border-top-left-radius: 10px;
+	/* Declaration for Mozilla browsers like FireFox */
+	-moz-border-radius-topleft: 10px;
+	/* Declaration for Linux browsers */
+	-khtml-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-khtml-border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-khtml-border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-khtml-border-bottom-right-radius: 10px;
+	border: solid 1px #99cc00;
+	/*background: #c6e26f; */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#daeda4));
+	background: -moz-linear-gradient(top,  #fefefe,  #daeda4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#daeda4');
+	}
+h2{
+	font-size:18px;
+}
+h3{
+	font-size:14px;
+}
+.contentL{
+	width:551px; 
+	float:left;
+}
+.contentR{
+	width:330px; 
+	float:right; 
+	text-align:left;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.roundCorner{
+	/* CSS3 declaration */
+	border-top-left-radius: 13px;
+	/* Declaration for WebKit browsers like: Safari, Chrome */
+	-webkit-border-top-left-radius: 13px;
+	/* Declaration for Mozilla browsers like FireFox */
+	-moz-border-radius-topleft: 13px;
+	/* Declaration for Linux browsers */
+	-khtml-border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	-webkit-border-top-right-radius: 13px;
+	-moz-border-radius-topright: 13px;
+	-khtml-border-top-right-radius: 13px;
+	border-bottom-left-radius: 13px;
+	-webkit-border-bottom-left-radius: 13px;
+	-moz-border-radius-bottomleft: 13px;
+	-khtml-border-bottom-left-radius: 13px;
+	border-bottom-right-radius: 13px;
+	-webkit-border-bottom-right-radius: 13px;
+	-moz-border-radius-bottomright: 13px;
+	-khtml-border-bottom-right-radius: 13px;
+}
+
+.roundTop{
+	/* CSS3 declaration */
+	border-top-left-radius: 13px;
+	/* Declaration for WebKit browsers like: Safari, Chrome */
+	-webkit-border-top-left-radius: 13px;
+	/* Declaration for Mozilla browsers like FireFox */
+	-moz-border-radius-topleft: 13px;
+	/* Declaration for Linux browsers */
+	-khtml-border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	-webkit-border-top-right-radius: 13px;
+	-moz-border-radius-topright: 13px;
+	-khtml-border-top-right-radius: 13px;
+	
+}
+.roundBot{
+	border-bottom-left-radius: 13px;
+	-webkit-border-bottom-left-radius: 13px;
+	-moz-border-radius-bottomleft: 13px;
+	-khtml-border-bottom-left-radius: 13px;
+	border-bottom-right-radius: 13px;
+	-webkit-border-bottom-right-radius: 13px;
+	-moz-border-radius-bottomright: 13px;
+	-khtml-border-bottom-right-radius: 13px;
+}
+.shadow{box-shadow: 0px 5px 20px #666666;}
+.disclaimer, .disclaimer p{
+	position:relative; 
+	top:20px; 
+	float:right;
+	font-size:9px; 
+	color:#666666;
+}
+.disclaimer a{
+	text-decoration:none; 
+	color:#666666;
+}
+.orange {
+	/*color: #cbe47b;*/
+	border: solid 1px #99cc00;
+	background: #c6e26f; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#c0e062), to(#d9eca0));
+	background: -moz-linear-gradient(top,  #c0e062,  #d9eca0);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0e062', endColorstr='#d9eca0');
+	<!--opacity:0.6;
+filter:alpha(opacity=60);--> /* For IE8 and earlier */
+}
+.orange:hover, .here {
+	background: #ffdc33;
+	border: solid 1px #ffb531;
+
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffdc33), to(#ffffff));
+	background: -moz-linear-gradient(top,  #ffdc33,  #ffffff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdc33', endColorstr='#ffffff');
+	opacity:1.0;
+filter:alpha(opacity=100);
+}
+.green {
+	/*color: #cbe47b;*/
+	border: solid 1px #99cc00;
+	color:#000;
+	background: #c0e062; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#c0e062), to(#d9eca0));
+	background: -moz-linear-gradient(top,  #c0e062,  #d9eca0);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0e062', endColorstr='#d9eca0');
+	/*opacity:0.6;
+filter:alpha(opacity=60);*/ /* For IE8 and earlier */
+}
+.green:hover, .here {
+	background: #ffdc33;
+	border: solid 1px #ffb531;
+
+	color:#000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffdc33), to(#ffffff));
+	background: -moz-linear-gradient(top,  #ffdc33,  #ffffff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdc33', endColorstr='#ffffff');
+	opacity:1.0;
+filter:alpha(opacity=100);
+}
+.linkBtn{
+	display:inline-block;
+	text-decoration:none;
+	/*background-color:#F0F;*/
+	/*border-radius:14px;	*/
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#666;
+	text-align: center;
+	padding: 5px 10px 5px;
+	/*text-shadow: 0 1px 1px rgba(0,0,0,.3);*/
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	margin:0px;
+	margin-left:7px;
+	margin-right:7px;
+	position:relative;
+}
+.sidebarNav a{
+	width:80%;
+	margin:10px;
+	margin-top:0px;
+}
+#sidebar1 {
+	float: left; 
+	width: 22%;
+	/*background: #F0F; */
+	padding: 0px 15px 0px 0px;
+	text-align:left;
+}
+#sidebar2 {
+	float: right; 
+	width: 23%; 
+	/*background: #0F0; */
+	padding: 0px 0px 0px 15px;
+	text-align:left;
+}
+#mainContent { 
+	text-align:left;
+	/*background:#0FF;*/
+	margin: 0 24% 0 23.5%; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+}
+.clear{clear:both;}
