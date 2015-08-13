@@ -256,7 +256,6 @@ filter:alpha(opacity=60);--> /* For IE8 and earlier */
 filter:alpha(opacity=100);
 }
 .green {
-	/*color: #cbe47b;*/
 	border: solid 1px #99cc00;
 	color:#000;
 	background: #c0e062; 
@@ -279,8 +278,6 @@ filter:alpha(opacity=100);
 .linkBtn{
 	display:inline-block;
 	text-decoration:none;
-	/*background-color:#F0F;*/
-	/*border-radius:14px;	*/
 	font: 14px/100% Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	color:#666;
@@ -313,13 +310,11 @@ filter:alpha(opacity=100);
 #sidebar2 {
 	float: right; 
 	width: 23%; 
-	/*background: #0F0; */
 	padding: 0px 0px 0px 15px;
 	text-align:left;
 }
 #mainContent { 
 	text-align:left;
-	/*background:#0FF;*/
-	margin: 0 24% 0 23.5%; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	margin: 0 24% 0 23.5%; 
 }
 .clear{clear:both;}
